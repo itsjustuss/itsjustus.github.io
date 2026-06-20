@@ -1,72 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Memories</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
 <div id="password-screen">
-    <div class="password-box">
-        <h1>Our Memories 💜</h1>
-        <input type="password" id="passwordInput" placeholder="Enter Password">
-        <button onclick="checkPassword()">Enter</button>
-        <p id="error"></p>
+    <div class="login-box">    <h1>JUST US</h1>
+    <p class="subtitle">Employee Resources Portal</p>
+
+    <input
+        type="text"
+        placeholder="Username"
+        id="usernameInput"
+    >
+
+    <input
+        type="password"
+        placeholder="Password"
+        id="passwordInput"
+    >
+
+    <div class="captcha-row">
+        <input type="checkbox" id="captchaCheck">
+        <label for="captchaCheck">
+            I'm not a robot
+        </label>
     </div>
+
+    <button onclick="checkPassword()">
+        Sign In
+    </button>
+
+    <p id="error"></p>
+
+    <div class="footer-text">
+        Internal Use Only • Secure Access
+    </div>
+
 </div>
 
-<div id="gallery" class="hidden">
-    <h1 class="title">Our Memories 💜</h1>
-
-    <div class="cards">
-
-        <div class="memory-card">
-            <div class="memory-inner">
-                <div class="front">
-                    <img src="photos/photo1.jpg" alt="">
-                </div>
-                <div class="back">
-                    <h3>Memory 1</h3>
-                    <p>Your cute message here</p>
-                    <p>📅 Date</p>
-                    <p>📍 Place</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="memory-card">
-            <div class="memory-inner">
-                <div class="front">
-                    <img src="photos/photo2.jpg" alt="">
-                </div>
-                <div class="back">
-                    <h3>Memory 2</h3>
-                    <p>Your cute message here</p>
-                    <p>📅 Date</p>
-                    <p>📍 Place</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="memory-card">
-            <div class="memory-inner">
-                <div class="front">
-                    <img src="photos/photo3.jpg" alt="">
-                </div>
-                <div class="back">
-                    <h3>Memory 3</h3>
-                    <p>Your cute message here</p>
-                    <p>📅 Date</p>
-                    <p>📍 Place</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
 </div>
-
-<script src="script.js"></script>
-</body>
-</html>
