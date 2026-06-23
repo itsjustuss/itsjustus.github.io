@@ -194,32 +194,32 @@ body{
 /* PHOTO POSITIONS */
 
 .card1{
-    width:130px;
-    height:60px;
+    width:120px;
+    height:100px;
 
-    left:0px;
+    left:5px;
     top:120px;
 }
 
 .card2{
-    width:140px;
-    height:140px;
+    width:100px;
+    height:100px;
 
-    left:130px;
+    left:110px;
     top:20px;
 }
 
 .card3{
-    width:90px;
-    height:140px;
+    width:120px;
+    height:180px;
 
     left:220px;
     top:35px;
 }
 
 .card4{
-    width:170px;
-    height:130px;
+    width:140px;
+    height:110px;
 
     left:150px;
     top:180px;
@@ -246,7 +246,7 @@ body{
     height:210px;
 
     left:200px;
-    top:420px;
+    top:320px;
 }
 
 .card8{
